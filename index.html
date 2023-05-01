@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link src="src/main.js">
+    <title>Weather</title>
+</head>
+<body>
+    <main>
+        <!-- Form and search section -->
+        <section class="search-form">
+            <form>
+                <div class="searchbox">
+                    <input type="text" placeholder="Search for a location..." class="search">
+                </div>
+            </form>
+        </section>
+       
+        <!-- Weather card -->
+        <div class="weather-card">
+            <h4>Apr 01, 2023</h4>
+            <div class="weather">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/04d.svg">
+                <div class="weather-info">
+                    <h3 class="value">24ºC</h3>
+                    <h3 class="desc">Cloudy</h3>
+                </div>
+            </div>
+            <div class="location">London</div>
+            <div class="extra-info">Humedad: 10%</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Authors: <a href="https://github.com/felipevcc">@felipevcc</a></p>
+        <p>Built with <a href="https://openweathermap.org/">OpenWeather API</a></p>
+    </footer>
+</body>
+</html>
